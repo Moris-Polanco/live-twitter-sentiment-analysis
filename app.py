@@ -27,10 +27,10 @@ class SA:
     )
 
     def __init__(self):
-        self.api_key = 'RsJhH0JDKWCPo1BNjfeUZ2y4o'
-        self.api_key_secret = 'UdDc0w0iRHOEERga0tLFf07a5UwBPrDXrBWqN00tfjqXJKwN7c'
-        self.access_token = '1330384842748473344-osAFdHj2ySYTOoDugmonG5RuC6XPKE'
-        self.access_token_secret = 'A6uF1RvoOn4oFa6LZ9o3p5Mtz9HvxI7LmMW1vJqhoCx7K'
+        self.api_key = 'CXjWqbqODoTLR8hNwe1h352jX'
+        self.api_key_secret = '5e0c1NR5aQGkHsixpPxxBZulRzxPvRLrMFHI1E3fT0jQnOe7Wh'
+        self.access_token = '113763054-c0ULFNs4rrXthT9FRnooFDVx8C81HVLZJFYBrctG'
+        self.access_token_secret = 'ZKyUofCpqNRJMfe28xi3pqOCwJ5Pee4e0psIizBZiHXNK'
         self.auth = tw.OAuthHandler(self.api_key, self.api_key_secret)
         self.auth.set_access_token(self.access_token, self.access_token_secret)
         self.api = tw.API(self.auth, wait_on_rate_limit=True)
